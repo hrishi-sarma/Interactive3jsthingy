@@ -40,6 +40,7 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
+
 // Animation loop
 const animate = () => {
     requestAnimationFrame(animate);
